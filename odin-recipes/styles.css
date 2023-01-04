@@ -1,0 +1,42 @@
+
+html {
+    background-color: rgb(234, 182, 156);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    font-family: "Brush Script MT",Futura,-apple-system,sans-serif;
+}
+
+header {
+    font-size: 64px;
+    font-weight: 800;
+    padding: 24px;
+    background-color: azure;
+    width: 60%;
+    text-align: center;
+    margin: 12px auto;
+    border-top:2px solid black;
+}
+body {
+    background-color: rgb(215, 227, 227);
+    width: 70%;
+    border-radius: 20px;
+    margin: auto;
+    padding-bottom: 12px;
+}
+.recipe-list {
+    display: flex;
+    background-color: azure;
+    flex-direction: column;
+    border-radius: 8px;
+    width: 600px;
+    align-items: center;
+    margin: 18px auto;
+    justify-content: space-around;
+    border: 2px solid salmon;
+}
+
+.recipe-list > div {
+flex: 1 1 150px;
+text-align: center;
+border-bottom: 2px solid;
+}
